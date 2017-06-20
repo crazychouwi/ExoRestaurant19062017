@@ -1,0 +1,40 @@
+body{
+font-family: Helvetica;
+background-image: url("img/salle-du-restaurant.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+header{
+  background-color: grey;
+  height: 80px;
+  border-radius: 10px;
+}
+h1{
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+label{
+  display: block;
+  width: 380px;
+  float: left;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 1.5em;
+}
+.form{
+  margin: 10px;
+  padding: 2px;
+  text-align: center;
+}
+.bouton{
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+.bouton:hover{
+  background-color: white;
+  color: black;
+}
