@@ -2,10 +2,14 @@
 <html>
 	<head>
 	<title>liste des plats </title>
+	<link rel="stylesheet" href="style1.css">
 	</head>
 	<body>
+<header>
+	<!-- <h1>Liste des Plats</h1> -->
+</header>
+<div class="contenu">
 
-    <h1>Liste des Plats</h1>
 	<?php
 	// Connection à la base
 	mysql_connect("localhost", "root", "matt2610") or die (mysql_error ());
@@ -30,5 +34,6 @@
 	// Close the database connection
 	mysql_close();
 	?>
+</div>
 	</body>
 	</html>
