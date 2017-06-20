@@ -2,7 +2,7 @@
 <html>
 	<head>
 	<title>liste des plats </title>
-	<link rel="stylesheet" href="style1.css">
+	<link rel="stylesheet" href="/config/style1.css">
 	</head>
 	<body>
 <header>
@@ -12,7 +12,7 @@
 
 	<?php
 	// Connection à la base
-	include("/config/connection.php");
+	include("config/connection.php");
 
 	// Selection de la base
 	mysql_select_db("restaurant") or die(mysql_error());

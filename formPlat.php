@@ -10,7 +10,7 @@
       <h1>Enregistrez vos Plats</h1>
     </header>
     <div class="form">
-      <form class="plats" action="connection.php" method="post">
+      <form class="plats" action="/config/traitement.php" method="post">
         <p><label class="plat" for="plat">Entrez le nom de votre plat:</label><input type="text" name="plat" value="" autofocus></p>
         <p><label class="prix" for="prix">Entrez le prix de votre plat:</label><input type="text" name="prix" value=""></p>
         <p><label class="image" for="">Entrez le nom de votre image ici:</Label><input type="text" name="url" value=""></p>
