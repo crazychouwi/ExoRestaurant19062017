@@ -4,11 +4,9 @@ src:url(font/bromello.ttf);
 }
 body{
 font-family: Helvetica;
-background-image: url("img/tableauPlat.jpg");
+background-image: url(img/assiette.png);
 background-repeat: no-repeat;
 background-size: cover;
-border-radius: 10px 0 10px 0;
-background-position: -40px -190px;
 }
 header{
   margin-top: 50px;
@@ -21,15 +19,15 @@ header{
   border-radius: 10px 10px 0 0;
 }
 h1{
+  font-size: 5em;
   text-align: center;
   color: white;
   text-shadow: 2px 2px black;
 }
 .contenu{
   /*background-color: white;*/
-  margin-top: 250px;
   text-align: center;
-  font-size: 3em;
-  color: white;
+  font-size: 4em;
+  color: gold;
   font-family: "brom";
 }

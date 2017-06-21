@@ -2,6 +2,10 @@ body{
   font-family: Helvetica, Arial, sans-serif;
   margin: 0px;
   padding: 0px;
+  background-image: url(img/salle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 nav{
   background-color: rgba(128, 128, 128,0.7);
@@ -23,12 +27,16 @@ header{
   margin-right: 30px;
   margin-bottom: 150px;
   padding: 15px;
-  /*background-color: rgba(128, 128, 128,0.7);*/
   height: 80px;
   border-radius: 10px 10px 0 0;
 }
 h1{
+  text-shadow: 2px 2px 2px white;
   text-align: center;
   color: white;
-  text-shadow: 2px 2px black;
+  font-size: 5em;
+  color: grey;
+}
+.contenu{
+  display: flex;
 }

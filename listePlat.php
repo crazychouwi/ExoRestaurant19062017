@@ -8,6 +8,7 @@
 <header>
 	<!-- <h1>Liste des Plats</h1> -->
 </header>
+<h1>Nos plats</h1>
 	<div class="contenu">
 		<?php
 		// Connection à la base

@@ -2,9 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="listeMenu.css">
     <title>listeMenu</title>
   </head>
   <body>
+    <div class="contenu">
     <?php
     // Connection à la base
     include("config/connection.php");
@@ -19,5 +21,6 @@
       ".$donnees["nom"]." ".$donnees["prix"]."€</p></div>";
       };
       ?>
+    </div>
   </body>
 </html>

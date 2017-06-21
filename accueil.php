@@ -7,6 +7,8 @@
   </head>
   <body>
   <nav>
+    <div class="contenu">
+    <div class="plat">
     <ul>
       <li class="plat"><a class="plat" href="#">PLAT</a>
         <ul class="submenu">
@@ -14,6 +16,8 @@
           <li><a href="listePlat.php">Liste des Plats</a></li>
         </ul>
         </li>
+      </div>
+      <div class="menu">
         <li class="menu"><a href="#">MENU</a>
           <ul class="submenu">
             <li><a href="formMenu.php">Ajout de Menu</a></li>
@@ -21,6 +25,8 @@
           </ul>
         </li>
     </ul>
+  </div>
+  </div>
   </nav>
   <header>
     <h1>Restaurant</h1>
