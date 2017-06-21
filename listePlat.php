@@ -12,7 +12,8 @@
 
 	<?php
 	// Connection à la base
-	include("/config/connection.php");
+	// include("config/connection.php");
+	$db = mysql_connect('localhost', 'root', 'matt2610')  or die('Erreur de connexion '.mysql_error());
 
 	// Selection de la base
 	mysql_select_db("restaurant") or die(mysql_error());

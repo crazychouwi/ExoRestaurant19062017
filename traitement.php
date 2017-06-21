@@ -10,7 +10,7 @@ if(empty($plat) OR empty($prix))
     }
     else
         {
-          include("/config/connection.php");
+          $db = mysql_connect('localhost', 'root', 'matt2610')  or die('Erreur de connexion '.mysql_error());
     // sélection de la base
 
         mysql_select_db('restaurant',$db)  or die('Erreur de selection '.mysql_error());
