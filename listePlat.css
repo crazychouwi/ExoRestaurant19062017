@@ -8,7 +8,7 @@ background-image: url("img/tableauPlat.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 border-radius: 10px 0 10px 0;
-background-position: -170px -220px;
+background-position: -40px -190px;
 }
 header{
   margin-top: 50px;
@@ -29,7 +29,7 @@ h1{
   /*background-color: white;*/
   margin-top: 250px;
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
   color: white;
   font-family: "brom";
 }
