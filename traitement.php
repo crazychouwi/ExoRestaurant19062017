@@ -10,20 +10,18 @@ if(empty($plat) OR empty($prix))
     }
     else
         {
-          $db = mysql_connect('localhost', 'root', 'matt2610')  or die('Erreur de connexion '.mysql_error());
-    // sélection de la base
+          // connection a la base'restaurant'
+          include('config/connection.php');
 
-        mysql_select_db('restaurant',$db)  or die('Erreur de selection '.mysql_error());
+          $req = $bdd->prepare('INSERT INTO plat(nom, prix, image) VALUES(:nom, :prix, :image)');
 
-        // on écrit la requête sql
-        $sql = "INSERT INTO plat(idPlat, nom, prix, image) VALUES('','$plat','$prix','$image')";
-
-        // on insère les informations du formulaire dans la table
-        mysql_query($sql) or die('Erreur SQL !'.$sql.'<br>'.mysql_error());
-
-        // on affiche le résultat pour le visiteur
-        echo 'Vos infos on été ajoutées.';
-
-        mysql_close();  // on ferme la connexion
+          $req->execute(array(
+          'nom' => $plat,
+          'prix' => $prix,
+          'image' => $image
+          ));
+          echo " entrer dans la base de données OK!";
+          header('Location:listePlat.php');
+          exit();
         }
-?>
+  ?>

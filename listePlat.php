@@ -8,33 +8,23 @@
 <header>
 	<!-- <h1>Liste des Plats</h1> -->
 </header>
-<div class="contenu">
+	<div class="contenu">
+		<?php
+		// Connection à la base
+		include("config/connection.php");
 
-	<?php
-	// Connection à la base
-	// include("config/connection.php");
-	$db = mysql_connect('localhost', 'root', 'matt2610')  or die('Erreur de connexion '.mysql_error());
+		$reponse = $bdd->query('SELECT * FROM plat');
 
-	// Selection de la base
-	mysql_select_db("restaurant") or die(mysql_error());
-
-	// requete SQL
-	$strSQL = "SELECT * FROM plat";
-
-	// Execute la requete (la variable $ contient le résultat)
-	$resultat = mysql_query($strSQL);
-
-	//boucle dans la colonne 'nom' et récupère chaque résultat
-	while($colonne = mysql_fetch_array($resultat)) {
-
-	   // Ecrit la valeur de la colonne 'nom'
-	  echo $colonne['nom'] . "<br />";
-
-	  }
-
-	// Close the database connection
-	mysql_close();
-	?>
-</div>
+		// On affiche chaque entrée une à une
+		while ($donnees = $reponse->fetch())
+			{
+		  echo "<div class='plat'>
+			<p>
+			".$donnees["nom"]." ".$donnees["prix"]."€</p>"."<p>".$donnees["image"]."
+			</p>
+			</div>";
+			};
+			?>
+		</div>
 	</body>
 	</html>
