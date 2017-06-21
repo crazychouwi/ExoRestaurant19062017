@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="formPlat.css">
+    <link rel="stylesheet" href="assets/css/formPlat.css">
     <title>Ajout Plats </title>
   </head>
   <body>

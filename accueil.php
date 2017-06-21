@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="accueil.css">
+    <link rel="stylesheet" href="assets/css/accueil.css">
     <title>page d'accueil</title>
   </head>
   <body>

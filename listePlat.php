@@ -2,7 +2,7 @@
 <html>
 	<head>
 	<title>liste des plats </title>
-	<link rel="stylesheet" href="listePlat.css">
+	<link rel="stylesheet" href="assets/css/listePlat.css">
 	</head>
 	<body>
 <header>

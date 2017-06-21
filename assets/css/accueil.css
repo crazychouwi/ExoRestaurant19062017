@@ -2,7 +2,7 @@ body{
   font-family: Helvetica, Arial, sans-serif;
   margin: 0px;
   padding: 0px;
-  background-image: url(img/salle.jpg);
+  background-image: url("../img/salle.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 

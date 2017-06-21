@@ -1,9 +1,9 @@
 @font-face{
 font-family: "brom";
-src:url(font/bromello.ttf);
+src:url(../font/bromello.ttf);
 }
 body{
-  background-image: url("img/tableauPlat.jpg");
+  background-image: url("../img/tableauPlat.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -40px -190px;

@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="formPlat.css">
-    <title>Ajout Menus </title>
+    <link rel="stylesheet" href="assets/css/formPlat.css">
+    <title>Ajout Menus</title>
   </head>
   <body>
     <header>

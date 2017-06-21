@@ -1,10 +1,10 @@
 @font-face{
 font-family: "brom";
-src:url(font/bromello.ttf);
+src:url("../font/bromello.ttf");
 }
 body{
 font-family: Helvetica;
-background-image: url(img/assiette.png);
+background-image: url("../img/assiette.png");
 background-repeat: no-repeat;
 background-size: cover;
 }
