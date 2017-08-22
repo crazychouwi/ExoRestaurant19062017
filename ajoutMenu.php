@@ -24,7 +24,7 @@
 
       <div class="choixplat">
         <h3>Choississez le plat à ajouter au menu:</h1>
-      <select name="id" size="1">
+      <select name="id" size="0">
         <?php
         include("config/connection.php");
 
@@ -36,6 +36,5 @@
         ?>
       </select>
     </div>
-
   </body>
 </html>

@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/formPlat.css">
-    <title>Ajout Menus</title>
-  </head>
-  <body>
-    <header>
-      <h1>Enregistrez vos Menu</h1>
-    </header>
+<?php include('header.php');?>
+<?php include('menu.php');?>
+<div class="form">
+  <h1>Enregistrez vos Menu</h1>
     <div class="form">
       <form class="plats" action="traitementMenu.php" method="post">
         <p>
@@ -25,5 +18,5 @@
         </p>
       </form>
     </div>
-  </body>
-</html>
+  </div>
+<?php include('footer.php');?>

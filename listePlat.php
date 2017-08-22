@@ -1,14 +1,6 @@
-<!-- Afficher tous les plats -->
-<html>
-	<head>
-	<title>liste des plats </title>
-	<link rel="stylesheet" href="assets/css/listePlat.css">
-	</head>
-	<body>
-<header>
-	<!-- <h1>Liste des Plats</h1> -->
-</header>
-<h1>Nos plats</h1>
+  <?php include('header.php');?>
+	<?php include('menu.php');?>
+	<h1>Nos plats</h1>
 	<div class="contenu">
 		<?php
 		// Connection à la base
@@ -18,14 +10,11 @@
 
 		// On affiche chaque entrée une à une
 		while ($donnees = $reponse->fetch())
-			{
-		  echo "<div class='plat'>
-			<p>
-			".$donnees["nom"]." ".$donnees["prix"]."€</p>"."<p>".$donnees["image"]."
-			</p>
+		{
+			echo "<div class='plat'>
+			<p>".$donnees["nom"]." ".$donnees["prix"]."€</p>"."</p>
 			</div>";
-			};
-			?>
-		</div>
-	</body>
-	</html>
+		};
+		?>
+	</div>
+  <?php include('footer.php');?>
