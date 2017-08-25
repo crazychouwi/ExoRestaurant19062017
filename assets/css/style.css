@@ -155,3 +155,6 @@ a{
 }
 /*html[xmlns] #nav {display: block;}
 * html #nav {height: 1%;}*/
+.footer{
+	display: flex;
+}

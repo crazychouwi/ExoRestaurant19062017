@@ -1,5 +1,10 @@
-<?php include('header.php'); ?>
+<?php
+  include('header.php');
+  include('menu.php');
 
-<?php include('menu.php'); ?>
 
-<?php include('footer.php'); ?>
+
+
+
+  include('footer.php');
+?>
